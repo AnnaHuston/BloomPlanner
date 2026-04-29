@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bloom - Focus Timer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header text-center py-4">
+        <h1>Bloom</h1>
+        <p class="mb-0">Plant the seed today for a more productive tomorrow.</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg planner-nav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Bloom</a>
+          
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="planner.html">Planner</a></li>
+                    <li class="nav-item"><a class="nav-link" href="funfact.html">Fun Fact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="word.html">Word of the Day</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="timer.html">Focus Timer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tips.html">Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-4">
+        <section class="card shadow-sm">
+            <div class="card-body text-center p-4">
+                <h2>Focus Timer</h2>
+                <p>Use this timer to stay focused for work sessions or breaks.</p>
+
+                <div class="timer-flower mx-auto mb-4">
+                    <div id="timerDisplay">25:00</div>
+                </div>
+
+        
+
+                <div class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn btn-main" type="button" id="startTimerButton">Start</button>
+                    <button class="btn btn-outline-main" type="button" id="pauseTimerButton">Pause</button>
+                    <button class="btn btn-outline-main" type="button" id="resetTimerButton">Reset</button>
+                </div>
+
+                <p id="timerMessage" class="mt-3">Set your timer and begin your focus session.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer text-center py-3">
+    <p>2026 Bloom | Plant the seed today for a more productive tomorrow.</p>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
